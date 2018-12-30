@@ -14,6 +14,8 @@ npm install
 npm run start:dev
 ```
 
+Open `dist/index.html` and change the page `title` to the title of your choice.
+
 Sometimes you don't need a framework like Angular or React to demonstrate an idea or concept in JavaScript. You just want a framework-agnostic, plain JavaScript development environment to play around with things like [web workers](https://auth0.com/blog/speedy-introduction-to-web-workers/), [service workers](https://auth0.com/blog/creating-offline-first-web-apps-with-service-workers/), new JavaScript constructs, or IndexedDB, for example. In this blog post, you are going to learn how to quickly prototype plain JavaScript apps using webpack 4 to create such environment with zero config and low development overhead.
 
 [Webpack](https://webpack.js.org/) is a leading static module bundler for frontend apps. It is used by tools such as `create-react-app` to quickly scaffold frontend projects. According to the [webpack documentation](https://webpack.js.org/concepts/), since version `4.0.0`, webpack doesn't require a configuration file to bundle your projects; however, the module bundler remains highly configurable to meet the increasing complexity of your projects down the line.
